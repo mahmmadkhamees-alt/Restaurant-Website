@@ -1,0 +1,340 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Chau+Philomene+One:ital@0;1&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+section {
+    padding: 80px 0;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #222;
+}
+
+.navbar {
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    font-size: 25px !important;
+    font-weight: 700 !important;
+    font-family: 'Cairo', sans-serif !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+.nav-link {
+    color: #333333;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 15px;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #ce392b !important;
+}
+
+.btn-success {
+    padding: 12px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: all 0.3s;
+    background: #c0392b;
+    border-color: #c0392b;
+}
+
+.btn-success:hover {
+    background: #c0392b;
+    border-color: #c0392b;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 !important;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+    height: 260px;
+    object-fit: cover;
+}
+
+.card h5 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.hero {
+    min-height: 100vh;
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+        url("./images/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.hero p {
+    font-size: 22px;
+    margin: 25px 0;
+}
+
+.hero .btn {
+    border-radius: 30px;
+    padding: 12px 30px;
+    margin-right: 10px;
+}
+
+#menu .card {
+    background: white;
+}
+
+#offers {
+    background: #fafafa;
+}
+
+#chefs img {
+    height: 330px;
+    object-fit: cover;
+}
+
+#gallery img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.3s;
+}
+
+#gallery img:hover {
+    transform: scale(1.05);
+}
+
+.small-tag {
+    color: #ff6b4a !important;
+    letter-spacing: 2px;
+    font-size: 0.85rem;
+    display: inline-block;
+}
+
+.section-main-title {
+    color: #1a221e !important;
+    font-size: 2.2rem;
+}
+
+.sub-title-text {
+    max-width: 500px;
+    margin: 10px auto 0 auto !important;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.testimonials-section {
+    background-color: #ffffff;
+}
+
+.testimonial-card {
+    background-color: #ffffff;
+    border: 1px solid #eeeeee;
+    border-radius: 25px;
+    padding: 45px 40px;
+    min-height: 365px;
+}
+
+.stars {
+    color: #ff6347;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
+.testimonial-text {
+    color: #172d4d;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 1.7;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.person img {
+    width: 55px;
+    height: 55px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.person h5 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 700;
+    color: #111111;
+}
+
+.person p {
+    margin: 5px 0 0;
+    font-size: 16px;
+    color: #60758d;
+}
+
+.btn-book {
+    background-color: #ff6b4a !important;
+    color: #ffffff !important;
+    font-weight: 600 !important;
+    padding: 10px 30px !important;
+    border-radius: 30px !important;
+    border: none !important;
+    box-shadow: 0 4px 15px rgba(255, 107, 74, 0.2);
+    transition: all 0.3s ease !important;
+}
+
+.btn-book:hover {
+    background-color: #e05333 !important;
+    transform: translateY(-2px);
+}
+
+iframe {
+    border-radius: 15px;
+}
+
+#contact i {
+    color: #c0392b;
+    margin-right: 8px;
+}
+
+.contact-card-box {
+    background-color: #ffffff;
+    border-radius: 20px !important;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.04) !important;
+    border: 1px solid rgba(0, 0, 0, 0.02);
+    transition: transform 0.3s ease;
+}
+
+.contact-card-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.07) !important;
+}
+
+.contact-phone {
+    transition: color 0.2s ease;
+}
+
+.contact-phone:hover {
+    color: #ff6b4a !important;
+}
+
+.btn-whatsapp-custom {
+    background-color: #25D366 !important;
+    color: #ffffff !important;
+    border-radius: 30px !important;
+    border: none !important;
+    box-shadow: 0 4px 15px rgba(37, 211, 102, 0.2);
+    transition: all 0.3s ease !important;
+}
+
+.btn-whatsapp-custom:hover {
+    background-color: #20ba56 !important;
+    transform: scale(1.02);
+    box-shadow: 0 6px 20px rgba(37, 211, 102, 0.3);
+}
+
+footer {
+    background: #111;
+    font-size: 16px;
+}
+
+.col-4 {
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+.menu {
+    color: black;
+    font-family: 'Lalezar', sans-serif;
+    font-weight: 800;
+    font-size: 42px;
+}
+
+.img-hero {
+    border-radius: 10px 10px 0 0;
+}
+
+h5 {
+    padding: 10px;
+    font-family: 'Lalezar', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    color: #FFCC00;
+}
+
+.price {
+    font-size: 20px;
+    font-family: 'Changa', sans-serif;
+    color: green;
+}
+
+.card .img-hero {
+    width: 100% !important;
+    height: 220px !important;
+    object-fit: cover !important;
+    object-position: center !important;
+}
+
+.hero-title {
+    font-size: 60px !important;
+    font-weight: 900 !important;
+    text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.9) !important;
+    margin-bottom: 20px !important;
+}
+
+.hero-desc {
+    font-size: 30px !important;
+    font-weight: 600 !important;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.9) !important;
+    margin-bottom: 30px !important;
+}
+
+.btn-hero-main,
+.btn-hero-sub {
+    font-size: 30px !important;
+    font-weight: 700 !important;
+    padding: 12px 30px !important;
+    margin: 5px !important;
+}
+
